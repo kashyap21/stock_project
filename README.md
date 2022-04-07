@@ -15,13 +15,14 @@ Also we can utilized celery to send email to the user or to run cron job.
 This project is currently in development phase, so settings.py file isn't modified yet to deployment standerdeds.
 
 Steps for getting started
-1.Install dependency in your virutualenv
+1. Install dependency in your virutualenv
    - pip install -r requirement.txt
 
 2. Do Migration and Migrate
   - python manage.py makemigrations
   - python manage.py migrate
-3 Create superuser
+
+3. Create superuser
   - python manage.py createsuperuser
 
-4 Explore the api and send me feedback!
+4. Explore the api and send me feedback!
